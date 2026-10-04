@@ -1,0 +1,169 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 = {isa = PBXBuildFile; fileRef = B10000000000000000000001; };
+		A10000000000000000000002 = {isa = PBXBuildFile; fileRef = B10000000000000000000002; };
+		A10000000000000000000003 = {isa = PBXBuildFile; fileRef = B10000000000000000000003; };
+		A10000000000000000000004 = {isa = PBXBuildFile; fileRef = B10000000000000000000004; };
+		A10000000000000000000005 = {isa = PBXBuildFile; fileRef = B10000000000000000000005; };
+		A10000000000000000000006 = {isa = PBXBuildFile; fileRef = B10000000000000000000006; };
+		A10000000000000000000007 = {isa = PBXBuildFile; fileRef = B10000000000000000000007; };
+		A10000000000000000000008 = {isa = PBXBuildFile; fileRef = B10000000000000000000008; };
+		A10000000000000000000009 = {isa = PBXBuildFile; fileRef = B10000000000000000000009; };
+		A1000000000000000000000B = {isa = PBXBuildFile; fileRef = B1000000000000000000000B; };
+		A1000000000000000000000C = {isa = PBXBuildFile; fileRef = B1000000000000000000000C; };
+		A1000000000000000000000D = {isa = PBXBuildFile; fileRef = B1000000000000000000000D; };
+		A1000000000000000000000E = {isa = PBXBuildFile; fileRef = B1000000000000000000000E; };
+		A1000000000000000000000F = {isa = PBXBuildFile; fileRef = B1000000000000000000000F; };
+		A10000000000000000000010 = {isa = PBXBuildFile; fileRef = B10000000000000000000010; };
+		A10000000000000000000011 = {isa = PBXBuildFile; fileRef = B10000000000000000000011; };
+		A10000000000000000000012 = {isa = PBXBuildFile; fileRef = B10000000000000000000012; };
+		A10000000000000000000013 = {isa = PBXBuildFile; fileRef = B10000000000000000000013; };
+		A10000000000000000000014 = {isa = PBXBuildFile; fileRef = B10000000000000000000014; };
+		A10000000000000000000015 = {isa = PBXBuildFile; fileRef = B10000000000000000000015; };
+		A10000000000000000000016 = {isa = PBXBuildFile; fileRef = B10000000000000000000016; };
+		A10000000000000000000017 = {isa = PBXBuildFile; fileRef = B10000000000000000000017; };
+		A10000000000000000000018 = {isa = PBXBuildFile; fileRef = B10000000000000000000018; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C10000000000000000000001 = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F10000000000000000000001;
+			proxyType = 1;
+			remoteGlobalIDString = D10000000000000000000001;
+			remoteInfo = DiskVakt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B10000000000000000000001 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiskVaktApp.swift; sourceTree = "<group>"; };
+		B10000000000000000000002 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowCoordinator.swift; sourceTree = "<group>"; };
+		B10000000000000000000003 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMode.swift; sourceTree = "<group>"; };
+		B10000000000000000000004 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthStatus.swift; sourceTree = "<group>"; };
+		B10000000000000000000005 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThresholdProfile.swift; sourceTree = "<group>"; };
+		B10000000000000000000006 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsStore.swift; sourceTree = "<group>"; };
+		B10000000000000000000007 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		B10000000000000000000008 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NtfyProvider.swift; sourceTree = "<group>"; };
+		B10000000000000000000009 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchAtLoginManager.swift; sourceTree = "<group>"; };
+		B1000000000000000000000A = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMARTHealthProvider.swift; sourceTree = "<group>"; };
+		B1000000000000000000000B = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiskMonitor.swift; sourceTree = "<group>"; };
+		B1000000000000000000000C = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarRootView.swift; sourceTree = "<group>"; };
+		B1000000000000000000000D = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRootView.swift; sourceTree = "<group>"; };
+		B1000000000000000000000E = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		B1000000000000000000000F = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B10000000000000000000010 = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		B10000000000000000000011 = {isa = PBXVariantGroup; children = (B20000000000000000000001, B20000000000000000000002, B20000000000000000000003, B20000000000000000000004); name = Localizable.strings; sourceTree = "<group>"; };
+		B10000000000000000000012 = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B10000000000000000000013 = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DiskVakt.entitlements; sourceTree = "<group>"; };
+		B10000000000000000000014 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThresholdProfileTests.swift; sourceTree = "<group>"; };
+		B10000000000000000000015 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthClassificationTests.swift; sourceTree = "<group>"; };
+		B10000000000000000000016 = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiskVakt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10000000000000000000017 = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiskVaktTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10000000000000000000018 = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
+		B20000000000000000000001 = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B20000000000000000000002 = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B20000000000000000000003 = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B20000000000000000000004 = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/Localizable.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E10000000000000000000001 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		E10000000000000000000002 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F20000000000000000000001 = {
+			isa = PBXGroup;
+			children = (F20000000000000000000002, F20000000000000000000008, F20000000000000000000009, F2000000000000000000000A);
+			sourceTree = "<group>";
+		};
+		F20000000000000000000002 = {isa = PBXGroup; children = (F20000000000000000000003, F20000000000000000000004, F20000000000000000000005, F20000000000000000000006, F20000000000000000000007); path = DiskVakt; sourceTree = "<group>"; };
+		F20000000000000000000003 = {isa = PBXGroup; children = (B10000000000000000000001, B10000000000000000000002); path = App; sourceTree = "<group>"; };
+		F20000000000000000000004 = {isa = PBXGroup; children = (B10000000000000000000003, B10000000000000000000004, B10000000000000000000005); path = Models; sourceTree = "<group>"; };
+		F20000000000000000000005 = {isa = PBXGroup; children = (B10000000000000000000006, B10000000000000000000007, B10000000000000000000008, B10000000000000000000009, B1000000000000000000000A, B1000000000000000000000B); path = Services; sourceTree = "<group>"; };
+		F20000000000000000000006 = {isa = PBXGroup; children = (B1000000000000000000000C, B1000000000000000000000D, B1000000000000000000000E); path = Views; sourceTree = "<group>"; };
+		F20000000000000000000007 = {isa = PBXGroup; children = (B1000000000000000000000F, B10000000000000000000010, B10000000000000000000011, B10000000000000000000012, B10000000000000000000013); path = Resources; sourceTree = "<group>"; };
+		F20000000000000000000008 = {isa = PBXGroup; children = (B10000000000000000000014, B10000000000000000000015); path = DiskVaktTests; sourceTree = "<group>"; };
+		F20000000000000000000009 = {isa = PBXGroup; children = (B10000000000000000000018); name = Documentation; sourceTree = "<group>"; };
+		F2000000000000000000000A = {isa = PBXGroup; children = (B10000000000000000000016, B10000000000000000000017); name = Products; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D10000000000000000000001 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C20000000000000000000001;
+			buildPhases = (E20000000000000000000001, E10000000000000000000001, E30000000000000000000001);
+			buildRules = ();
+			dependencies = ();
+			name = DiskVakt;
+			productName = DiskVakt;
+			productReference = B10000000000000000000016;
+			productType = "com.apple.product-type.application";
+		};
+		D10000000000000000000002 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C20000000000000000000002;
+			buildPhases = (E20000000000000000000002, E10000000000000000000002, E30000000000000000000002);
+			buildRules = ();
+			dependencies = (C30000000000000000000001);
+			name = DiskVaktTests;
+			productName = DiskVaktTests;
+			productReference = B10000000000000000000017;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F10000000000000000000001 = {
+			isa = PBXProject;
+			attributes = {BuildIndependentTargetsInParallel = 1; LastSwiftUpdateCheck = 2660; LastUpgradeCheck = 2660; TargetAttributes = {D10000000000000000000001 = {CreatedOnToolsVersion = 26.6; }; D10000000000000000000002 = {CreatedOnToolsVersion = 26.6; TestTargetID = D10000000000000000000001; };};};
+			buildConfigurationList = C20000000000000000000003;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = sv;
+			hasScannedForEncodings = 0;
+			knownRegions = (sv, en, da, nb, Base);
+			mainGroup = F20000000000000000000001;
+			productRefGroup = F2000000000000000000000A;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (D10000000000000000000001, D10000000000000000000002);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E30000000000000000000001 = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (A1000000000000000000000F, A10000000000000000000010, A10000000000000000000011); runOnlyForDeploymentPostprocessing = 0; };
+		E30000000000000000000002 = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E20000000000000000000001 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000001, A10000000000000000000002, A10000000000000000000003, A10000000000000000000004, A10000000000000000000005, A10000000000000000000006, A10000000000000000000007, A10000000000000000000008, A10000000000000000000009, A1000000000000000000000B, A1000000000000000000000C, A1000000000000000000000D, A1000000000000000000000E); runOnlyForDeploymentPostprocessing = 0; };
+		E20000000000000000000002 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000014, A10000000000000000000015); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C30000000000000000000001 = {isa = PBXTargetDependency; target = D10000000000000000000001; targetProxy = C10000000000000000000001; };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C40000000000000000000001 = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; COPY_PHASE_STRIP = NO; DEBUG_INFORMATION_FORMAT = dwarf; ENABLE_TESTABILITY = YES; GCC_C_LANGUAGE_STANDARD = gnu17; MACOSX_DEPLOYMENT_TARGET = 14.0; ONLY_ACTIVE_ARCH = YES; SDKROOT = macosx; SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)"; SWIFT_OPTIMIZATION_LEVEL = "-Onone";}; name = Debug; };
+		C40000000000000000000002 = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; COPY_PHASE_STRIP = NO; DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; ENABLE_NS_ASSERTIONS = NO; GCC_C_LANGUAGE_STANDARD = gnu17; MACOSX_DEPLOYMENT_TARGET = 14.0; SDKROOT = macosx; SWIFT_COMPILATION_MODE = wholemodule; SWIFT_OPTIMIZATION_LEVEL = "-O";}; name = Release; };
+		C40000000000000000000003 = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_ENTITLEMENTS = DiskVakt/Resources/DiskVakt.entitlements; CODE_SIGN_STYLE = Automatic; COMBINE_HIDPI_IMAGES = YES; CURRENT_PROJECT_VERSION = 1; DEVELOPMENT_TEAM = 47KJQ2J862; ENABLE_APP_SANDBOX = YES; ENABLE_HARDENED_RUNTIME = YES; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = DiskVakt/Resources/Info.plist; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks"; MARKETING_VERSION = 0.1.0; PRODUCT_BUNDLE_IDENTIFIER = com.bosaurage.diskvakt.next; PRODUCT_NAME = DiskVakt; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 6.0;}; name = Debug; };
+		C40000000000000000000004 = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_ENTITLEMENTS = DiskVakt/Resources/DiskVakt.entitlements; CODE_SIGN_STYLE = Automatic; COMBINE_HIDPI_IMAGES = YES; CURRENT_PROJECT_VERSION = 1; DEVELOPMENT_TEAM = 47KJQ2J862; ENABLE_APP_SANDBOX = YES; ENABLE_HARDENED_RUNTIME = YES; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = DiskVakt/Resources/Info.plist; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks"; MARKETING_VERSION = 0.1.0; PRODUCT_BUNDLE_IDENTIFIER = com.bosaurage.diskvakt.next; PRODUCT_NAME = DiskVakt; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 6.0;}; name = Release; };
+		C40000000000000000000005 = {isa = XCBuildConfiguration; buildSettings = {BUNDLE_LOADER = "$(TEST_HOST)"; CODE_SIGN_STYLE = Automatic; DEVELOPMENT_TEAM = 47KJQ2J862; GENERATE_INFOPLIST_FILE = YES; MACOSX_DEPLOYMENT_TARGET = 14.0; PRODUCT_BUNDLE_IDENTIFIER = com.bosaurage.diskvakt.next.tests; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 6.0; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiskVakt.app/Contents/MacOS/DiskVakt";}; name = Debug; };
+		C40000000000000000000006 = {isa = XCBuildConfiguration; buildSettings = {BUNDLE_LOADER = "$(TEST_HOST)"; CODE_SIGN_STYLE = Automatic; DEVELOPMENT_TEAM = 47KJQ2J862; GENERATE_INFOPLIST_FILE = YES; MACOSX_DEPLOYMENT_TARGET = 14.0; PRODUCT_BUNDLE_IDENTIFIER = com.bosaurage.diskvakt.next.tests; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 6.0; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiskVakt.app/Contents/MacOS/DiskVakt";}; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C20000000000000000000001 = {isa = XCConfigurationList; buildConfigurations = (C40000000000000000000003, C40000000000000000000004); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		C20000000000000000000002 = {isa = XCConfigurationList; buildConfigurations = (C40000000000000000000005, C40000000000000000000006); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		C20000000000000000000003 = {isa = XCConfigurationList; buildConfigurations = (C40000000000000000000001, C40000000000000000000002); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = F10000000000000000000001;
+}
