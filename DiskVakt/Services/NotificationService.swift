@@ -19,12 +19,16 @@ enum LocalNotificationError: LocalizedError {
 final class NotificationService: NSObject, ObservableObject, UNUserNotificationCenterDelegate {
     @Published private(set) var authorizationStatus: UNAuthorizationStatus = .notDetermined
 
-    private let center: UNUserNotificationCenter
+    private let center: UNUserNotificationCenter?
 
     override init() {
-        center = UNUserNotificationCenter.current()
+        if ProcessInfo.processInfo.environment["XCTestConfigurationFilePath"] == nil {
+            center = UNUserNotificationCenter.current()
+        } else {
+            center = nil
+        }
         super.init()
-        center.delegate = self
+        center?.delegate = self
     }
 
     var isAuthorized: Bool {
@@ -36,7 +40,7 @@ final class NotificationService: NSObject, ObservableObject, UNUserNotificationC
         center = UNUserNotificationCenter.current()
         authorizationStatus = previewAuthorizationStatus
         super.init()
-        center.delegate = self
+        center?.delegate = self
     }
 #endif
 
@@ -48,6 +52,7 @@ final class NotificationService: NSObject, ObservableObject, UNUserNotificationC
     }
 
     func requestAuthorizationAndWait() async -> Bool {
+        guard let center else { return false }
         do {
             _ = try await center.requestAuthorization(options: [.alert, .sound])
         } catch {
@@ -62,7 +67,7 @@ final class NotificationService: NSObject, ObservableObject, UNUserNotificationC
     }
 
     func refreshAuthorization() {
-        center.getNotificationSettings { [weak self] settings in
+        center?.getNotificationSettings { [weak self] settings in
             let rawValue = settings.authorizationStatus.rawValue
             Task { @MainActor in
                 self?.authorizationStatus = UNAuthorizationStatus(rawValue: rawValue) ?? .notDetermined
@@ -71,10 +76,11 @@ final class NotificationService: NSObject, ObservableObject, UNUserNotificationC
     }
 
     func send(title: String, body: String, timeSensitive: Bool) {
-        center.add(request(title: title, body: body, timeSensitive: timeSensitive))
+        center?.add(request(title: title, body: body, timeSensitive: timeSensitive))
     }
 
     func sendTest(title: String, body: String, timeSensitive: Bool) async throws {
+        guard let center else { throw LocalNotificationError.notAuthorized }
         let settings = await center.notificationSettings()
         authorizationStatus = settings.authorizationStatus
         guard settings.authorizationStatus == .authorized ||
