@@ -1,5 +1,5 @@
 import XCTest
-@testable import DiskVaktNext
+@testable import DiskVakt
 
 final class HealthClassificationTests: XCTestCase {
     private let thresholds = ThresholdProfile(

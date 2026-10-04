@@ -1,5 +1,5 @@
 import XCTest
-@testable import DiskVaktNext
+@testable import DiskVakt
 
 final class ThresholdProfileTests: XCTestCase {
     func testDefaultsFor256GBDisk() {
