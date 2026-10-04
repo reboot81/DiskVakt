@@ -2,7 +2,6 @@
 
 DiskVakt is a small macOS menu-bar utility that warns before storage or basic system-health conditions require urgent attention. It does not inspect file contents and never deletes files.
 
-This repository is the clean-room successor to a working local prototype. The prototype installed at `~/Applications/DiskVakt.app` is intentionally independent and is not replaced automatically by this project.
 
 ## Product modes
 
