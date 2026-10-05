@@ -6,9 +6,7 @@ struct AboutView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 18) {
             HStack(spacing: 16) {
-                Image(nsImage: NSApp.applicationIconImage)
-                    .resizable()
-                    .frame(width: 80, height: 80)
+                RetroAppIcon(size: 80)
                 VStack(alignment: .leading) {
                     Text("DiskVakt").font(.largeTitle.bold())
                     Text("Version \(version) (\(build))")

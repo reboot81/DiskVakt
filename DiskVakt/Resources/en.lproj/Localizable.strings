@@ -214,3 +214,11 @@
 "%@ ledigt" = "%@ available";
 "Varna för %@" = "Warn about %@";
 "Den termiska kontrollen kompletterar utrymmesbevakningen men är endast en övergripande status från macOS." = "The thermal check supplements storage monitoring but is only an overall status provided by macOS.";
+"Stäng" = "Close";
+"UTVECKLAD AV" = "DEVELOPED BY";
+"DESIGN & UTVECKLING" = "DESIGN & ENGINEERING";
+"DRIVS AV SWIFT" = "POWERED BY SWIFT";
+"& KAFFE" = "& COFFEE";
+"FILER INGÅR EJ" = "FILES NOT INCLUDED";
+"— TACK FÖR ATT DU HÅLLER KOLL —" = "— THANK YOU FOR WATCHING —";
+"DiskVakt retroeftertext" = "DiskVakt retro credits";

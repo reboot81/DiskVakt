@@ -214,3 +214,11 @@
 "%@ ledigt" = "%@ ledig";
 "Varna för %@" = "Advar om %@";
 "Den termiska kontrollen kompletterar utrymmesbevakningen men är endast en övergripande status från macOS." = "Den termiske kontrol supplerer overvågningen af lagringsplads, men er kun en overordnet status fra macOS.";
+"Stäng" = "Luk";
+"UTVECKLAD AV" = "UDVIKLET AF";
+"DESIGN & UTVECKLING" = "DESIGN & UDVIKLING";
+"DRIVS AV SWIFT" = "DREVET AF SWIFT";
+"& KAFFE" = "& KAFFE";
+"FILER INGÅR EJ" = "FILER MEDFØLGER IKKE";
+"— TACK FÖR ATT DU HÅLLER KOLL —" = "— TAK FORDI DU HOLDER ØJE —";
+"DiskVakt retroeftertext" = "DiskVakt retro-rulletekster";
